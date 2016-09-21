@@ -1,0 +1,7 @@
+<div>
+  <div>
+    <input #myname type="text" placeholder="please enter name...">
+    <input appcounting #myinputbutton type="button" class="btn btn-default" (click)="OnClick($event, myname.value)" value="Click Me">
+    <button appcounting #mybutton type="button" class="btn btn-danger" (click)="OnClick($event, myname.value)">Click Me</button>
+  </div>
+</div>
