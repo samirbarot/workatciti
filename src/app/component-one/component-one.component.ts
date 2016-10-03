@@ -22,6 +22,9 @@ export class ComponentOneComponent implements OnInit, AfterViewInit {
 
   OnClick(event, value) {
 
+    let userName: string | null = '';
+    console.log(userName);
+
     console.log('Entered Name:' + value);
 
     console.log(this.myName);
